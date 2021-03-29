@@ -38,7 +38,7 @@
                         
                         Ce générateur bénéficie d'un algorithme de tri super puissant mais ne donne aucun super skills aux joueurs !
                     </p>
-                    <button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#Mycollapse" aria-expanded="false" aria-controls="Mycollapse">Découvrir
+                    <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="collapse" data-target="#Mycollapse" aria-expanded="false" aria-controls="Mycollapse">Découvrir
                         <i class="fas fa-arrow-down"></i>
                     </button>
                 </div>
@@ -70,22 +70,23 @@
                                         <h4 class="heading heading-4 strong-300 mb-0 " style="color:grey;">Remplissez le formulaire suivant :</h4>
                                         
                                     </div>
-
-                                    <form class="form-default mt-4" data-toggle="validator" role="form">
+                                    <form class="form-default mt-4 needs-validation"  data-toggle="validator" role="form">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    
-                                                    <label class="control-label">Joueur 1 <sup>*</sup> : </label>
-                                                    
-                                                    <input type="text" class="form-control form-control-lg">
+                                                    <label class="control-label" for="playerone">Joueur 1 <sup>*</sup> : </label>
+                                                    <input type="text" class="form-control" id="playerone" required>
+                                                    <div class="valid-feedback">Valide.</div>
+                                                    <div class="invalid-feedback">Champ obligatoire.</div>
                                                 </div>
                                             </div>
 
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Joueur 3 <sup>*</sup> :</label>
-                                                    <input type="text" class="form-control form-control-lg">
+                                                    <label class="control-label" for="playerthree">Joueur 3 <sup>*</sup> :</label>
+                                                    <input type="text" class="form-control" id="playerthree" required>
+                                                    <div class="valid-feedback">Valide.</div>
+                                                    <div class="invalid-feedback">Champ obligatoire.</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,17 +94,21 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Joueur 2 <sup>*</sup> :</label>
-                                                    <input type="email" class="form-control form-control-lg">
+                                                    <label class="control-label" for="playertwo">Joueur 2 <sup>*</sup> :</label>
+                                                    <input type="text" class="form-control" id="playertwo" required>
+                                                    <div class="valid-feedback">Valide.</div>
+                                                    <div class="invalid-feedback">Champ obligatoire.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Joueur 4 <sup>*</sup> :</label>
-                                                    <input type="text" class="form-control form-control-lg">
+                                                    <label class="control-label" for="playerfour">Joueur 4 <sup>*</sup> :</label>
+                                                    <input type="text" class="form-control" id="playerfour" required>
+                                                    <div class="valid-feedback">Valide.</div>
+                                                    <div class="invalid-feedback">Champ obligatoire.</div>
                                                 </div>
                                             </div>
-                                            <button type="button" class="btn btn-success btn-lg btn-block mt-3">Valider</button>
+                                            <button type="submit" class="btn btn-success btn-lg btn-block mt-3">Valider</button>
                                         </div>
                                         
                                         
