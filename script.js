@@ -1,4 +1,4 @@
-function myFunction() {
+function myFunction(event) {
     document.getElementById("accordionExample").style.display = "block";
     document.getElementById("Mycollapse").style.display = "none";
     var x = document.getElementById("playerone").value;
@@ -9,6 +9,7 @@ function myFunction() {
     document.getElementById("teamthree").innerHTML = x;
     var x = document.getElementById("playerfour").value;
     document.getElementById("teamfour").innerHTML = x;
+    event.preventDefault();
 }
 
 

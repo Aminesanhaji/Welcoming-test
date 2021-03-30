@@ -70,7 +70,7 @@
                                         <h4 class="heading heading-4 strong-300 mb-0 " style="color:grey;">Remplissez le formulaire suivant :</h4>
                                         
                                     </div>
-                                    <form class="form-default mt-4 needs-validation"  data-toggle="validator" role="form">
+                                    <form class="form-default mt-4 needs-validation" onsubmit="return false" data-toggle="validator" role="form">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
@@ -106,7 +106,7 @@
                                                     <div class="invalid-feedback">Champ obligatoire.</div>
                                                 </div>
                                             </div>
-                                            <button type="submit"  class="btn btn-success btn-block mt-3" onclick="myFunction()">Valider</button>
+                                            <button type="submit"  class="btn btn-success btn-block mt-3" onclick="myFunction(event)">Valider</button>
                                         </div>
                                     </form>
                                 </div>
