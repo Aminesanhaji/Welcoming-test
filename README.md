@@ -9,6 +9,8 @@
                                   \|_________|                                                          
                                   
                                   
+- Merci pour l'intérêt que vous portez à mon profil :bowtie: 
+
 # welcoming_test_wits_media
 
 Consignes :
@@ -39,4 +41,3 @@ OU
 
 /**** HAPPY CODING :) ****/
 
-- Merci pour l'intérêt que vous portez à mon profil :bowtie: 
