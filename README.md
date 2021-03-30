@@ -38,3 +38,5 @@ OU
 - Vérifier que les quatres champs respectent la contrainte suivante => uniquement des lettres ou des chiffres ou les caractères suivants : "-_()"
 
 /**** HAPPY CODING :) ****/
+
+- Merci pour l'intérêt que vous portez à mon profil :bowtie: 
